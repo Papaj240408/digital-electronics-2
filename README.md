@@ -24,17 +24,3 @@ _This line contains_ **formatted text.**
 |  Row 1   |Content 11|Content 21|
 |  Row 2   |Content 12|Content 22|
 
-### Code Sample
-
-```vhdl
-entity gates is -- Sample comment
-    port (
-        c_i      : in std_logic;
-        b_i      : in std_logic;
-        a_i      : in std_logic;
-        f_orig_o : out std_logic;
-        f_nand_o : out std_logic;
-        f_nor_o  : out std_logic
-    );
-end entity gates;
-```
